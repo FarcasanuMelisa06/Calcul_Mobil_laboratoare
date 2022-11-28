@@ -1,4 +1,4 @@
-package com.example.lab1_cm;
+package com.example.lab2_tema;
 
 import org.junit.Test;
 

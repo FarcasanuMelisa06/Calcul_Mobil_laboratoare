@@ -7,92 +7,67 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/FName"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:textColor="#75092E"
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.097"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_registration" />
-
-    <TextView
-        android:id="@+id/LName"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:textColor="#75092E"
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FName" />
-
-    <TextView
-        android:id="@+id/TVEmail"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:textColor="#75092E"
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LName" />
-
-    <Button
-        android:id="@+id/btn_registration"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:text="Registration"
-        android:onClick="onClick"
+        android:id="@+id/afisareRezultat"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:textColor="#F44336"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/rezultat" />
 
-    <EditText
-        android:id="@+id/firstName"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:ems="10"
-        android:hint="type the First Name"
-        android:inputType="textPersonName"
+    <Button
+        android:id="@+id/rezultat"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="256dp"
+        android:text="go to operations"
+        android:onClick="onClickBtn1"
+        android:textSize="20dp"
+        android:textColor="#FFEB3B"
+        android:background="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/number2"
+        app:layout_constraintVertical_bias="0.81" />
 
     <EditText
-        android:id="@+id/lastName"
-        android:layout_width="300dp"
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:hint="type the Last Name"
         android:ems="10"
+        android:hint="type first number"
         android:inputType="textPersonName"
+        android:textSize="20dp"
         android:minHeight="48dp"
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.258"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstName" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
 
     <EditText
-        android:id="@+id/email"
-        android:layout_width="300dp"
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:hint="type the E-mail"
+        android:layout_marginBottom="476dp"
+        android:textSize="20dp"
         android:ems="10"
+        android:hint="type second number"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.258"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lastName" />
+        app:layout_constraintTop_toBottomOf="@+id/number1"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.lab3_tema;
+package com.example.lab6_temasunete;
 
 import org.junit.Test;
 

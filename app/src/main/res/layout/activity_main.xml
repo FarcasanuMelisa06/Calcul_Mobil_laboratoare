@@ -2,57 +2,71 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnSunet"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn_next"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/btn_next"
-        android:onClick="onClickNext"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_back"
-        app:layout_constraintTop_toBottomOf="@+id/btn_details" />
-
-    <Button
-        android:id="@+id/btn_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_back"
-        android:onClick="onClickBack"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_next"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_details"
-        app:layout_constraintVertical_bias="0.121" />
-
-    <Button
-        android:id="@+id/btn_details"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_details"
-        android:onClick="onClickDetails"
+        android:onClick="onClick"
+        android:text="@string/btnSunet"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833" />
+        app:layout_constraintVertical_bias="0.74" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_details"
+    <EditText
+        android:id="@+id/perioada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:hint="@string/tasteaza_perioada"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cat"
-        android:contentDescription="TODO"
-       />
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/volum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/tasteaza_volumul"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perioada"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/durata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tasteaza_durata"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/volum"
+        app:layout_constraintVertical_bias="0.218"
+        android:autofillHints="" />
 </androidx.constraintlayout.widget.ConstraintLayout>

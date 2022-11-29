@@ -1,9 +1,7 @@
 <resources>
-    <string name="app_name">Lab3_tema</string>
-    <string name="btn_back">BACK</string>
-    <string name="btn_next">NEXT</string>
-    <string name="btn_details">DETAILS</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="btn_backAct1">Back to image</string>
+    <string name="app_name">Lab6_TemaSunete</string>
+    <string name="btnSunet">Click</string>
+    <string name="tasteaza_durata">tasteaza durata</string>
+    <string name="tasteaza_volumul">tasteaza volumul</string>
+    <string name="tasteaza_perioada">tasteaza perioada</string>
 </resources>

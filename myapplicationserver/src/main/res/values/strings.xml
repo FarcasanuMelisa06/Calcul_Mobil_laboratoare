@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application Server</string>
+    <string name="textViewServer">Server</string>
+    <string name="serverIP">server IP</string>
+    <string name="ServerPORT">Server PORT</string>
+    <string name="StatusConnection">Status: no connection</string>
+    <string name="btn_StartServer">Start Server</string>
+    <string name="btn_StopServer">Stop Server</string>
+</resources>

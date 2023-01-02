@@ -12,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "tema10"
+rootProject.name = "Laborator7_CM"
 include ':app'
+include ':myapplicationserver'

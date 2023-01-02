@@ -1,4 +1,4 @@
-package com.example.tema10;
+package com.example.laborator7_cm;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.tema10", appContext.getPackageName());
+        assertEquals("com.example.laborator7_cm", appContext.getPackageName());
     }
 }

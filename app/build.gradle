@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.laborator7_cm'
+    namespace 'com.example.tema9'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.laborator7_cm"
+        applicationId "com.example.tema9"
         minSdk 21
         targetSdk 32
         versionCode 1

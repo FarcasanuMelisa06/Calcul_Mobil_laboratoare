@@ -1,8 +1,3 @@
 <resources>
-    <string name="app_name">Laborator7_CM</string>
-    <string name="btn_time">Connect to server</string>
-    <string name="textViewClient">Client</string>
-    <string name="textViewData">received data...null</string>
-    <string name="_1234">1234</string>
-    <string name="_10_0_2_15">10.0.2.15</string>
+    <string name="app_name">Tema9</string>
 </resources>

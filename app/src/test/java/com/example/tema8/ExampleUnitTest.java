@@ -1,4 +1,4 @@
-package com.example.tema9;
+package com.example.tema8;
 
 import org.junit.Test;
 
